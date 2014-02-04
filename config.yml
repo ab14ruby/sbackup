@@ -1,0 +1,18 @@
+default:
+  directories: [/home/user/Documents/, /home/fatih/Pictures/]
+  destination: /backup
+  compression: bzip2
+  exclude: ~
+
+simple:
+  directories: [/home/user/, /etc]
+  destination: /home/user/backup
+  compression: ~
+  exclude: mp3
+
+etc:
+  directories: /etc
+  destination: /backup
+  compression: bzip2
+  exclude: mp4
+
