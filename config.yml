@@ -1,5 +1,5 @@
 default:
-  directories: [/home/user/Documents/, /home/fatih/Pictures/]
+  directories: [/home/user/Documents/, /home/baran/Pictures/]
   destination: /backup
   compression: bzip2
   exclude: ~
